@@ -13,9 +13,9 @@ int main()
 {
 
     int a,b;
-	  double c,d,suma1,suma2,resta1,resta2,division1,division2,multiplicacion1,multiplicacion2,resto1,resto2;
-	  bool igual = true, distinto= true, mayor= true, menor= true, mayorigual= true, menorigual= true, logico1= true, logico2= true;
-	  char nombre [70], apellido [15];
+    double c,d,suma1,suma2,resta1,resta2,division1,division2,multiplicacion1,multiplicacion2,resto1,resto2;
+    bool igual = true, distinto= true, mayor= true, menor= true, mayorigual= true, menorigual= true;
+    char nombre [70], apellido [15];
 	
 	
     cout<<"Ingrese su Nombre: ";
@@ -56,20 +56,20 @@ int main()
     mayorigual = division1 >= resto1 ;
     menorigual = multiplicacion1 <= multiplicacion2;
     
-  cout <<"\n\n\t\tHola "<<nombre; 
-	cout <<"\n\t\tde acuerdo a los valores que ingresaste,"<<endl;
-	cout <<" \t\tpodemos concluir que:"<< endl;
-  cout << boolalpha;  	
-	cout <<"\n\n\t1)El resto de a,b es IGUAL a la division de a,b?:->> "<<igual<<endl;
-	cout <<"\n\n\t2)La division de a,b es DISTINTO de la division de c,d?:->> "<<distinto<<endl;
-	cout <<"\n\n\t3)La resta entre a,b es MAYOR de la resta entre c,d?:->> "<<mayor<<endl;
-	cout <<"\n\n\t4)La suma entre a,b es MENOR de la suma entre c,d?:->> "<<menor<<endl;
-	cout <<"\n\n\t5)La multiplicacion entre a,b es MENOR E IGUAL";
-	cout <<"\n\tde la multiplicacion entre c,d?:->> "<<menorigual<<endl;
-	cout <<"\n\n\t6)La division entre a,b es MAYOR E IGUAL";
-	cout <<"\n\tde la division entre c,d?:->> "<<mayorigual<<endl;
-	cout <<"\n\n\tSi el punto 1) es: ->> "<<igual;
-	cout <<"\n\tentonces el valor opuesto del valor logico sera:->> "<< !igual <<endl;
+    cout <<"\n\n\t\tHola "<<nombre; 
+    cout <<"\n\t\tde acuerdo a los valores que ingresaste,"<<endl;
+    cout <<" \t\tpodemos concluir que:"<< endl;
+    cout << boolalpha;  	
+    cout <<"\n\n\t1)El resto de a,b es IGUAL a la division de a,b?:->> "<<igual<<endl;
+    cout <<"\n\n\t2)La division de a,b es DISTINTO de la division de c,d?:->> "<<distinto<<endl;
+    cout <<"\n\n\t3)La resta entre a,b es MAYOR de la resta entre c,d?:->> "<<mayor<<endl;
+    cout <<"\n\n\t4)La suma entre a,b es MENOR de la suma entre c,d?:->> "<<menor<<endl;
+    cout <<"\n\n\t5)La multiplicacion entre a,b es MENOR E IGUAL";
+    cout <<"\n\tde la multiplicacion entre c,d?:->> "<<menorigual<<endl;
+    cout <<"\n\n\t6)La division entre a,b es MAYOR E IGUAL";
+    cout <<"\n\tde la division entre c,d?:->> "<<mayorigual<<endl;
+    cout <<"\n\n\tSi el punto 1) es: ->> "<<igual;
+    cout <<"\n\tentonces el valor opuesto del valor logico sera:->> "<< !igual <<endl;
 	
 	
 return 0;
